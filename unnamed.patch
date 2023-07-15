@@ -1,0 +1,12 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(revision c9e5caa701dc73d5b232c809fab15c412153a7e3)
++++ b/README.md	(revision c9e5caa701dc73d5b232c809fab15c412153a7e3)
+@@ -0,0 +1,1 @@
++# python_work
+\ No newline at end of file
