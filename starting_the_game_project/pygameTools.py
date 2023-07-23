@@ -3,7 +3,7 @@ import pygame
 
 class PygameTools:
 
-    def scale_image(image_path, scale):
+    def scale_image(image_path, scale: object) -> object:
         pygame.init()
 
         # 加载图像
