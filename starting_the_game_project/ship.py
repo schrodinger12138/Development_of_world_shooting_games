@@ -1,4 +1,5 @@
 import pygame
+import HpSys
 from settings import Settings
 
 
@@ -23,6 +24,8 @@ class Ship:
         self.moving_left = False
         self.moving_up = False
         self.moving_down = False
+        #
+        self.ship_hp_sys = HpSys.HealthPointSys(4, ai_game)
 
     def update(self):
         if self.moving_right and self.rect.right < self.screen_rect.right:
@@ -37,3 +40,4 @@ class Ship:
     def blitme(self):
         """Draw the ship at its current location."""
         self.screen.blit(self.image, self.rect)
+        self.ship_hp_sys.draw_hp_ui()
